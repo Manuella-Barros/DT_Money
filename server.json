@@ -1,0 +1,76 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de Site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-08-17T16:11:40.391Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburgueria",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 49.9,
+      "createdAt": "2023-09-17T16:08:40.391Z"
+    },
+    {
+      "id": 3,
+      "description": "Mercado",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 200,
+      "createdAt": "2023-04-17T16:10:20.391Z"
+    },
+    {
+      "id": 4,
+      "description": "Salário",
+      "type": "income",
+      "category": "Trabalho",
+      "price": 5000,
+      "createdAt": "2023-10-17T16:10:20.391Z"
+    },
+    {
+      "description": "Bolacha na vendinha",
+      "price": 15,
+      "category": "Alimentação",
+      "createdAt": "2023-08-18T17:09:32.494Z",
+      "type": "outcome",
+      "id": 5
+    },
+    {
+      "description": "Cortando grama do Antonio",
+      "price": 50,
+      "category": "Trabalho voluntário",
+      "createdAt": "2023-08-18T17:10:16.456Z",
+      "type": "income",
+      "id": 6
+    },
+    {
+      "description": "Skin no lol",
+      "price": 500,
+      "category": "Jogos",
+      "createdAt": "2023-08-18T18:15:55.447Z",
+      "type": "outcome",
+      "id": 7
+    },
+    {
+      "description": "Limpar o vaso do antonio",
+      "price": 200,
+      "category": "Trabalho voluntário",
+      "createdAt": "2023-08-18T21:10:32.027Z",
+      "type": "income",
+      "id": 8
+    },
+    {
+      "description": "aaa",
+      "price": 11,
+      "category": "rrr",
+      "createdAt": "2023-08-18T21:13:14.609Z",
+      "type": "outcome",
+      "id": 9
+    }
+  ]
+}
