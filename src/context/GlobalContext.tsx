@@ -1,5 +1,5 @@
 import { createContext, useReducer } from "react";
-import { GetTransaction, getTransactions } from "../fetch/getTransactions";
+import { GetTransaction } from "../fetch/getTransactions";
 
 interface GlobalContextProps {
     transactions: GetTransaction[] | GetTransaction | null,
