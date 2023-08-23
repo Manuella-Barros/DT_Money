@@ -35,6 +35,10 @@ export const DialogContent = styled(Dialog.Content)`
     padding: 2rem;
     border-radius: 5px;
     background-color: ${({theme}) => theme['neutral-color-8']};
+
+    @media(max-width: 500px){
+        width: 95%;
+    }
 `
 export const DialogOverlay = styled(Dialog.Overlay)`
     background-color: #00000076;

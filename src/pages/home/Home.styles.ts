@@ -20,6 +20,11 @@ export const TotalTransaction = styled.div`
             fill: ${({theme}) => theme["neutral-color-1"]};
         }
     }
+
+    @media(max-width: 500px){
+        flex-direction: column;
+        transform: translateY(-10%);
+    }
 `
 export const SingleTotalTransaction = styled.div`
     background-color: ${({theme}) => theme["neutral-color-6"]};
@@ -38,13 +43,20 @@ export const SingleTotalTransaction = styled.div`
     svg{
         justify-self: end;
     }
+
+    @media(max-width: 500px){
+        width: 100%;
+    }
 `
 
 export const SearchTransaction = styled.div`
     display: grid;
     grid-template-columns: 8.5fr 1fr;
     column-gap: 1rem;
-
+    
+    @media(max-width: 500px){
+        grid-template-columns: 7fr 2fr;
+    }
 `
 
 export const SearchTransactionButton = styled.button`
@@ -90,6 +102,22 @@ export const SingleTransaction = styled.div<SingleTransaction>`
     background-color: ${({theme}) => theme["neutral-color-6"]};
     padding: ${({theme}) => theme["escala-g"]};
     border-radius: 10px;
+    
+    @media(max-width: 500px){
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 1rem;
+
+
+        p:nth-child(1){
+            grid-column: 1/3;
+            font-size: 1.2rem;
+        }
+        span{
+            grid-column: 1/3;
+            font-size: 1.2rem;
+        }
+    }
 
     span{
         color: ${({theme, type}) => {

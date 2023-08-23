@@ -16,4 +16,8 @@ export const InternalWrapper = styled.section`
     background-color: transparent;
     width: 70rem;
     margin: auto;
+
+    @media(max-width: 500px){
+        width: 90%;
+    }
 `
